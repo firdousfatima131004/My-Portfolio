@@ -1,0 +1,215 @@
+*{
+     margin: 0;
+     padding: 0;
+     font-family: "Poppins", sans-serif;
+}
+.first{
+     background-color:#749EEA;
+     display: flex;
+     justify-content: flex-end;
+     font-family: 'calluna','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#profile-pic{
+     height: 350px;
+     width: 500px;
+     margin:10px;
+}
+.content{
+     margin: 20px;
+     color: aliceblue;
+}
+
+.content h3{
+     margin-right: 60px;
+     width: 800px;
+}
+
+.navbar{
+     display: flex;
+     margin-right: 100px ; 
+     justify-content: center;
+     width: 100%;
+}
+.navbar li{
+     margin: 0 20px;
+     list-style-type: none;
+}
+ul,li{
+     margin-left: 25%;
+}
+
+.navbar a{
+     text-decoration: none;
+     color: aliceblue;
+}
+.cv button{
+     margin-top: 60px;
+     --clr-font-main: hsla(0 0% 20% / 100);
+  --btn-bg-1: hsla(194 100% 69% / 1);
+  --btn-bg-2: hsla(217 100% 56% / 1);
+  --btn-bg-color: hsla(360 100% 100% / 1);
+  --radii: 0.5em;
+  cursor: pointer;
+  padding: 0.9em 1.4em;
+  min-width: 120px;
+  min-height: 44px;
+  font-size: var(--size, 1rem);
+  font-family: "Segoe UI", system-ui, sans-serif;
+  font-weight: 500;
+  transition: 0.8s;
+  background-size: 280% auto;
+  background-image: linear-gradient(325deg, var(--btn-bg-2) 0%, var(--btn-bg-1) 55%, var(--btn-bg-2) 90%);
+  border: none;
+  border-radius: var(--radii);
+  color: var(--btn-bg-color);
+  box-shadow: 0px 0px 20px rgba(71, 184, 255, 0.5), 0px 5px 5px -1px rgba(58, 125, 233, 0.25), inset 4px 4px 8px rgba(175, 230, 255, 0.5), inset -4px -4px 8px rgba(19, 95, 216, 0.35);
+}
+
+.cv button:hover {
+  background-position: right top;
+}
+
+.cv button:is(:focus, :focus-visible, :active) {
+  outline: none;
+  box-shadow: 0 0 0 3px var(--btn-bg-color), 0 0 0 6px var(--btn-bg-2);
+}
+.resume{
+     display: flex;
+}
+
+
+.heading{
+     margin: 25px;
+     text-decoration: underline;
+     text-decoration-color: #749EEA;
+     text-decoration-thickness: 3px;
+}
+.services{
+     display: flex;
+     margin: 20px;
+}
+.services img{
+     height: 150px;
+     border-radius: 50%;
+     margin: 55px;
+}
+
+.service_content h2{
+     color: #749EEA;
+}
+
+.service_content{
+     width: 700px;
+     margin-left: 150px;
+}
+
+.skills-container {
+     display: flex;
+     flex-direction: column;
+     gap: 70px;
+     margin: 70px;
+}
+ 
+.skill-row {
+     display: flex;
+     justify-content: space-between;
+}
+ 
+.skill {
+     flex: 1; /* Each skill takes equal space */
+     margin-right: 10px; /* Adjust space between skills within a row */
+}
+ 
+.skill:last-child {
+     margin-right: 0; /* Removes margin from the last skill to align properly */
+}
+ 
+.skill-name {
+     font-size: 1.25rem;
+     margin-bottom: .5rem;
+}
+ 
+.progress {
+     background-color: #e9ecef;
+     border-radius: .25rem;
+     height: 20px;
+     width: 100%;
+}
+ 
+.progress-bar {
+     background-color: #749EEA;
+     border-radius: .25rem;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     color: white;
+     transition: width 0.6s ease;
+}
+.heading {
+     text-align: center;
+     color: #333; /* Adjust color as needed */
+     margin-bottom: 20px; /* Adds space below the heading */
+}
+ 
+table.education {
+     width: 90%; /* Adjust based on your preference */
+     margin: 0 auto; /* Center the table */
+     border-collapse: collapse; /* Removes space between borders */
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow for depth */
+}
+ 
+table.education th,
+table.education td {
+     padding: 12px 15px; /* Adjust padding as needed */
+     text-align: left; /* Aligns text to the left */
+     border-bottom: 1px solid #ddd; /* Adds a border to each cell */
+}
+ 
+table.education th {
+     background-color: #749EEA; /* Adjust to match your theme */
+     color: #ffffff; /* Light text color for contrast */
+}
+ 
+table.education tr:nth-child(even) {
+     background-color: #f2f2f2; /* Zebra striping for rows */
+}
+ 
+table.education tr:hover {
+     background-color: #f5f5f5; /* Row highlight on hover */
+}
+ 
+ /* Responsive adjustment */
+@media screen and (max-width: 600px) {
+     table.education, table.education th, table.education td {
+         display: block;
+         width: 100%;
+     }
+     table.education th, table.education td {
+         text-align: center; /* Center-align text for mobile view */
+     }
+}
+footer a img{
+     height: 50px;
+     margin: 0px 30px;
+}
+.social_media{
+     display: flex;
+     justify-content: center;
+}
+.ecom{
+     margin: 30px;
+}
+.ecom:hover{
+     border: 2px solid #749EEA;
+     border-radius: 10px;
+}
+a{
+     text-decoration: none;
+     color: black;
+     margin: 30px;
+}
+.ecommerce_website{
+     display: flex;
+}
+
+ 
